@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Amazon-like Multi Level Responsive Dropdown Menu Demo</title>
+		<link rel="stylesheet" type="text/css" href="amazonmenu.css" />
+	</head>
+	<body>
+		<div style="width: 150px;">
+			<div id="my_menu" class="amazonmenu">
+				<ul>
+					<li>
+						<a href="#">View Menu</a>
+						<ul>
+							<li>
+								<a href="#">Level 1 Link 1</a>
+								<ul>
+									<li>
+										<a href="#">Level 2 Link 1</a>
+										<ul>
+											<li>
+												<a href="#">Level 3 Link 1</a>
+												<ul>
+													<li>
+														<a href="#">Level 4 Link 1</a>
+													</li>
+													<li>
+														<a href="#">Level 4 Link 2</a>
+													</li>
+													<li>
+														<a href="#">Level 4 Link 3</a>
+													</li>
+												</ul>
+											</li>
+										</ul>
+									</li>
+									<li>
+										<a href="#">Level 2 Link 2</a>
+									</li>
+								</ul>
+							</li>
+							<li>
+								<a href="#">Level 1 Link 2</a>
+								<ul>
+									<li>
+										<a href="#">Level 2 Link 1</a>
+									</li>
+									<li>
+										<a href="#">Level 2 Link 2</a>
+									</li>
+								</ul>
+							</li>
+							<li>
+								<a href="#">Level 1 Link 3</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+		<script type="text/javascript" src="amazonmenu.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+				amazonmenu.init({
+					menuid: 'my_menu'
+				});
+			});
+		</script>
+	</body>
+</html>
