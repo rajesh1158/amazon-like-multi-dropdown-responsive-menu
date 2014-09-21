@@ -12,7 +12,6 @@ var amazonmenu = {
 	defaults: {
 		animateduration: 100,
 		showhidedelay: [500, 500],
-		hidemenuonclick: true,
 		addBodyOverlay: true
 	},
 	setting: {},
