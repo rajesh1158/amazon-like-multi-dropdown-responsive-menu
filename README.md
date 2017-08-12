@@ -5,7 +5,7 @@ This plugin was created based on the Amazon-like dropdown menu by JavaScript Kit
 
 You are free to use this plugin in any project, but make sure the credits are NOT removed
 
-For live demo, go to http://clay6.com/qa/ and mouse over "Explore Categories" button. A separate demo.html file is included in this project for reference.
+A separate demo.html file is included in this project for reference.
 
 Usage
 ========
@@ -30,7 +30,7 @@ Include the amazonmenu.css file in the head section as below:
 Include jQuery (either from CDN or you can host it yourself) and amazonmenu.js before closing the body tag:
 
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-	<script type="text/javascript" src="amazonmenu.js"></script>
+    <script type="text/javascript" src="amazonmenu.js"></script>
 
 
 Put your menu's html inside a div with some id, and a class amazonmenu:
